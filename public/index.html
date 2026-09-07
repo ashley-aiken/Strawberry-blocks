@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#070913"><title>🍓 Strawberry Blocks Online</title>
+<style>
+:root{--bg:#19080f;--panel:#24101b;--line:#653049;--text:#fff8fb;--muted:#d3a8b9;--a:#ff477e;--b:#ff9f43;--good:#66e39a;--warn:#ffd166}*{box-sizing:border-box;-webkit-tap-highlight-color:transparen[...]
+@media(max-width:760px){.app{gap:5px}.lobbyGrid{grid-template-columns:1fr 1fr}.lobbyGrid .name{grid-column:span 2}.actions{grid-template-columns:1fr 1fr}.game{grid-template-columns:1fr}.side{displa[...]
+</style></head>
+<body><main class="app">
+<header class="top"><div class="brand">🍓 Strawberry Blocks Online</div><div class="pill" id="net">CONNECTING…</div></header>
+<section class="panel lobby">
+  <div class="lobbyGrid">
+    <input class="name" id="name" maxlength="18" placeholder="Your name" autocomplete="nickname">
+    <select id="mode"><option value="single">🎮 Single Player</option><option value="versus">⚔️ Versus</option><option value="coop">🤝 Co-op</option></select>
+    <input id="room" maxlength="6" placeholder="Room code">
+  </div>
+  <div class="actions"><button class="primary" id="create">Create Room</button><button id="join">Join Room</button><button id="refresh">↻ Refresh Rooms</button><button id="ready">▶ Start / Rea[...]
+  <div class="status" id="status">Single player is ready. Choose a mode or join a room.</div>
+  <div class="roomBar" id="roomBar"><div class="roomCode">ROOM <span id="roomLabel">------</span></div><div class="hint" id="roomHint">Everyone in this room must press Start / Ready.</div><button [...]
+  <div class="lobbies"><div class="lobbiesHead"><span>OPEN ROOMS</span><span class="hint" id="lobbyUpdated">Auto-refreshing</span></div><div class="lobbyList" id="lobbyList"><div class="hint">No o[...]
+</section>
+<section class="game"><div class="boardWrap"><canvas class="board" id="board"></canvas><div class="overlay" id="overlay"><div class="card"><h2 id="ovTitle">Ready to play?</h2><p id="ovText">Single[...]
+<aside class="side"><div class="stats"><div class="stat"><span>Score</span><b id="score">0</b></div><div class="stat"><span>Lines</span><b id="lines">0</b></div><div class="stat"><span>Level</span[...]
+<div class="controls"><button data-a="left">←</button><button data-a="down">↓</button><button data-a="right">→</button><button class="rot" data-a="rotate">↻</button><button class="drop" da[...]
+<div class="foot">Swipe to move • Tap to rotate • Up to 6 players • Versus = separate boards • Co-op = synchronized piece sequence</div>
+</main>
+<script>
+(()=>{
+const C=document.getElementById('board'),X=C.getContext('2d'),W=10,H=20;
+const SH=[[[1,1,1,1]],[[1,1],[1,1]],[[0,1,0],[1,1,1]],[[1,0,0],[1,1,1]],[[0,0,1],[1,1,1]],[[0,1,1],[1,1,0]],[[1,1,0],[0,1,1]]];
+const TYPES=['I','O','T','J','L','S','Z']; const FALL=850; let b=null,cur=null,score=0,lines=0,level=1,interval=FALL,last=0,run=false,paused=false,rng=Math.random,seed=1,mode='single',room='',me='[...]
+const $=id=>document.getElementById(id); const setStatus=s=>$('status').textContent=s;
+function resize(){const r=C.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);C.width=Math.max(1,Math.floor(r.width*d));C.height=Math.max(1,Math.floor(r.height*d));X.setTransform(d,0,0,d,0[...]
+function mulberry(a){return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}};
+function board(){return Array.from({length:H},()=>Array(W).fill(0))} function hit(m,x,y){for(let r=0;r<m.length;r++)for(let c=0;c<m[r].length;c++)if(m[r][c]&&(x+c<0||x+c>=W||y+r>=H||(y+r>=0&&b[y+r[...]
+function spawn(){const i=Math.floor(rng()*SH.length),m=SH[i].map(r=>r.slice());cur={m,x:Math.floor((W-m[0].length)/2),y:0,c:i,type:TYPES[i]};if(hit(m,cur.x,0)){endGame()}}
+function startGame(s=Math.floor(Math.random()*2147483647)){seed=s;rng=mulberry(seed);b=board();score=0;lines=0;level=1;interval=FALL;run=true;paused=false;spawn();stats();hideOverlay();last=perfor[...]
+function move(dx,dy){if(!run||paused)return false;if(!hit(cur.m,cur.x+dx,cur.y+dy)){cur.x+=dx;cur.y+=dy;return true}return false}
+function rotate(){if(!run||paused)return;const n=cur.m[0].map((_,i)=>cur.m.map(r=>r[i]).reverse());for(const k of [0,-1,1,-2,2])if(!hit(n,cur.x+k,cur.y)){cur.m=n;cur.x+=k;break}}
+function lock(){for(let r=0;r<cur.m.length;r++)for(let c=0;c<cur.m[r].length;c++)if(cur.m[r][c]&&cur.y+r>=0)b[cur.y+r][cur.x+c]=cur.c+1;clearLines();spawn();sendState()}
+function clearLines(){let n=0;b=b.filter(r=>{if(r.every(Boolean)){n++;return false}return true});while(b.length<H)b.unshift(Array(W).fill(0));if(n){score+=[0,100,300,500,800][n]*level;lines+=n;lev[...]
+function hard(){if(!run||paused)return;let d=0;while(move(0,1))d++;score+=d*2;lock();stats()}
+function stats(){$('score').textContent=score.toLocaleString();$('lines').textContent=lines;$('level').textContent=level}
+function endGame(){run=false;sendState();showOverlay('Game Over',`Final score ${score.toLocaleString()} • ${lines} lines.`,mode==='single'?'Play Again':'Leave game',mode==='single'?()=>startGame[...]
+function loop(t){if(!run||paused)return;if(t-last>=interval){if(!move(0,1))lock();last=t}draw();if(t-lastSend>120){lastSend=t;sendState()}requestAnimationFrame(loop)}
+function draw(){const bw=C.clientWidth/W,bh=C.clientHeight/H;X.clearRect(0,0,C.clientWidth,C.clientHeight);const g=X.createLinearGradient(0,0,0,C.clientHeight);g.addColorStop(0,'#111733');g.addCol[...]
+const colors=['#63efff','#ffd166','#ae82ff','#61e0a2','#ff72bd','#ff8b68','#6e9cff'];
+const imgs={}; for(const t of TYPES){const im=new Image();im.src=`/assets/strawberry/${t}.svg`;imgs[t]=im}
+function cell(c,r,i,a){const bw=C.clientWidth/W,bh=C.clientHeight/H,t=TYPES[i]||'I';X.globalAlpha=a;if(imgs[t]?.complete)X.drawImage(imgs[t],c*bw+1,r*bh+1,bw-2,bh-2);else{X.fillStyle=colors[i]||'#[...]
+function showOverlay(t,p,bt,fn){$('ovTitle').textContent=t;$('ovText').textContent=p;$('ovBtn').textContent=bt;$('ovBtn').onclick=fn;$('overlay').classList.remove('hidden')}function hideOverlay(){[...]
+function connect(){const proto=location.protocol==='https:'?'wss':'ws';try{ws=new WebSocket(`${proto}://${location.host}`)}catch{setStatus('Offline — single player still works.');return}ws.onope[...]
+function send(m){if(ws?.readyState===WebSocket.OPEN)ws.send(JSON.stringify(m))}function requestLobbies(){send({type:'lobbies'});$('lobbyUpdated').textContent='Updated '+new Date().toLocaleTimeStri[...]
+function sendState(){if(!room||!run)return;send({type:'state',score,alive:run,board:b,active:cur})}
+function handle(m){if(m.type==='hello'){me=m.id;return}if(m.type==='error'){setStatus('⚠️ '+m.message);return}if(m.type==='lobbies'){renderLobbies(m.rooms||[]);return}if(m.type==='joined'){roo[...]
+function renderPlayers(){if(mode==='single'){$('playerList').textContent='Single player';$('remote').innerHTML='';return}const arr=[...players.values()];$('playerList').innerHTML=arr.map(p=>`<div [...]
+function drawRemote(p){const c=document.querySelector(`canvas[data-id="${p.id}"]`);if(!c)return;const d=Math.min(devicePixelRatio||1,2),w=c.clientWidth,h=c.clientHeight;c.width=w*d;c.height=h*d;co[...]
+function renderLobbies(list){const el=$('lobbyList');if(!list.length){el.innerHTML='<div class="hint">No open rooms yet — create one.</div>';return}el.innerHTML=list.map(r=>`<div class="lobbyIte[...]
+function joinRoom(c){const n=$('name').value.trim()||'Player';if(!c)return setStatus('Enter a room code.');send({type:'joinRoom',name:n,code:c})}
+function createRoom(){const selected=$('mode').value;if(selected==='single'){startGame();setStatus('🎮 Single player started.');return}send({type:'createRoom',name:$('name').value.trim()||'Playe[...]
+function leaveRoom(show=true){send({type:'leave'});room='';players.clear();remoteBoards.clear();$('roomBar').classList.remove('show');mode='single';$('mode').value='single';run=false;renderPlayers[...]
+function esc(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+function action(a){if(a==='left')move(-1,0);if(a==='right')move(1,0);if(a==='down'){if(!move(0,1))lock();else score++;stats()}if(a==='rotate')rotate();if(a==='drop')hard();if(a==='pause'){paused=![...]
+document.querySelectorAll('[data-a]').forEach(el=>el.addEventListener('pointerdown',e=>{e.preventDefault();action(el.dataset.a)}));window.addEventListener('keydown',e=>{const m={ArrowLeft:'left',A[...]
+$('create').onclick=createRoom;$('join').onclick=()=>joinRoom($('room').value.trim());$('refresh').onclick=requestLobbies;$('ready').onclick=()=>{if(mode==='single'){startGame();setStatus('🎮 Si[...]
+setInterval(()=>{if(ws?.readyState===WebSocket.OPEN)requestLobbies()},3000);connect();resize();showOverlay('Ready to play?','Single Player starts immediately. Multiplayer rooms are live and automa[...]
+})();
+</script></body></html>
