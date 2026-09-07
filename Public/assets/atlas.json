@@ -1,0 +1,4545 @@
+{
+  "block_neon_I_normal": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_glass": {
+    "x": 64,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_glow": {
+    "x": 128,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_cracked": {
+    "x": 192,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_metallic": {
+    "x": 256,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_bright": {
+    "x": 320,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_I_dusk": {
+    "x": 384,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_normal": {
+    "x": 448,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_glass": {
+    "x": 512,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_glow": {
+    "x": 576,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_cracked": {
+    "x": 640,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_metallic": {
+    "x": 704,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_bright": {
+    "x": 768,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_O_dusk": {
+    "x": 832,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_normal": {
+    "x": 896,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_glass": {
+    "x": 960,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_glow": {
+    "x": 1024,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_cracked": {
+    "x": 1088,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_metallic": {
+    "x": 1152,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_bright": {
+    "x": 1216,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_T_dusk": {
+    "x": 1280,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_normal": {
+    "x": 1344,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_glass": {
+    "x": 1408,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_glow": {
+    "x": 1472,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_cracked": {
+    "x": 1536,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_metallic": {
+    "x": 1600,
+    "y": 0,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_bright": {
+    "x": 0,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_S_dusk": {
+    "x": 64,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_normal": {
+    "x": 128,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_glass": {
+    "x": 192,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_glow": {
+    "x": 256,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_cracked": {
+    "x": 320,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_metallic": {
+    "x": 384,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_bright": {
+    "x": 448,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_Z_dusk": {
+    "x": 512,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_normal": {
+    "x": 576,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_glass": {
+    "x": 640,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_glow": {
+    "x": 704,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_cracked": {
+    "x": 768,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_metallic": {
+    "x": 832,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_bright": {
+    "x": 896,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_J_dusk": {
+    "x": 960,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_normal": {
+    "x": 1024,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_glass": {
+    "x": 1088,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_glow": {
+    "x": 1152,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_cracked": {
+    "x": 1216,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_metallic": {
+    "x": 1280,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_bright": {
+    "x": 1344,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_neon_L_dusk": {
+    "x": 1408,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_normal": {
+    "x": 1472,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_glass": {
+    "x": 1536,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_glow": {
+    "x": 1600,
+    "y": 64,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_cracked": {
+    "x": 0,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_metallic": {
+    "x": 64,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_bright": {
+    "x": 128,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_I_dusk": {
+    "x": 192,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_normal": {
+    "x": 256,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_glass": {
+    "x": 320,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_glow": {
+    "x": 384,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_cracked": {
+    "x": 448,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_metallic": {
+    "x": 512,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_bright": {
+    "x": 576,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_O_dusk": {
+    "x": 640,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_normal": {
+    "x": 704,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_glass": {
+    "x": 768,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_glow": {
+    "x": 832,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_cracked": {
+    "x": 896,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_metallic": {
+    "x": 960,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_bright": {
+    "x": 1024,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_T_dusk": {
+    "x": 1088,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_normal": {
+    "x": 1152,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_glass": {
+    "x": 1216,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_glow": {
+    "x": 1280,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_cracked": {
+    "x": 1344,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_metallic": {
+    "x": 1408,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_bright": {
+    "x": 1472,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_S_dusk": {
+    "x": 1536,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_normal": {
+    "x": 1600,
+    "y": 128,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_glass": {
+    "x": 0,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_glow": {
+    "x": 64,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_cracked": {
+    "x": 128,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_metallic": {
+    "x": 192,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_bright": {
+    "x": 256,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_Z_dusk": {
+    "x": 320,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_normal": {
+    "x": 384,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_glass": {
+    "x": 448,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_glow": {
+    "x": 512,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_cracked": {
+    "x": 576,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_metallic": {
+    "x": 640,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_bright": {
+    "x": 704,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_J_dusk": {
+    "x": 768,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_normal": {
+    "x": 832,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_glass": {
+    "x": 896,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_glow": {
+    "x": 960,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_cracked": {
+    "x": 1024,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_metallic": {
+    "x": 1088,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_bright": {
+    "x": 1152,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_candy_L_dusk": {
+    "x": 1216,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_normal": {
+    "x": 1280,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_glass": {
+    "x": 1344,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_glow": {
+    "x": 1408,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_cracked": {
+    "x": 1472,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_metallic": {
+    "x": 1536,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_bright": {
+    "x": 1600,
+    "y": 192,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_I_dusk": {
+    "x": 0,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_normal": {
+    "x": 64,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_glass": {
+    "x": 128,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_glow": {
+    "x": 192,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_cracked": {
+    "x": 256,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_metallic": {
+    "x": 320,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_bright": {
+    "x": 384,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_O_dusk": {
+    "x": 448,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_normal": {
+    "x": 512,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_glass": {
+    "x": 576,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_glow": {
+    "x": 640,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_cracked": {
+    "x": 704,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_metallic": {
+    "x": 768,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_bright": {
+    "x": 832,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_T_dusk": {
+    "x": 896,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_normal": {
+    "x": 960,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_glass": {
+    "x": 1024,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_glow": {
+    "x": 1088,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_cracked": {
+    "x": 1152,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_metallic": {
+    "x": 1216,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_bright": {
+    "x": 1280,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_S_dusk": {
+    "x": 1344,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_normal": {
+    "x": 1408,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_glass": {
+    "x": 1472,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_glow": {
+    "x": 1536,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_cracked": {
+    "x": 1600,
+    "y": 256,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_metallic": {
+    "x": 0,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_bright": {
+    "x": 64,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_Z_dusk": {
+    "x": 128,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_normal": {
+    "x": 192,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_glass": {
+    "x": 256,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_glow": {
+    "x": 320,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_cracked": {
+    "x": 384,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_metallic": {
+    "x": 448,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_bright": {
+    "x": 512,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_J_dusk": {
+    "x": 576,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_normal": {
+    "x": 640,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_glass": {
+    "x": 704,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_glow": {
+    "x": 768,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_cracked": {
+    "x": 832,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_metallic": {
+    "x": 896,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_bright": {
+    "x": 960,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_cyberpunk_L_dusk": {
+    "x": 1024,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_normal": {
+    "x": 1088,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_glass": {
+    "x": 1152,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_glow": {
+    "x": 1216,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_cracked": {
+    "x": 1280,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_metallic": {
+    "x": 1344,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_bright": {
+    "x": 1408,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_I_dusk": {
+    "x": 1472,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_normal": {
+    "x": 1536,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_glass": {
+    "x": 1600,
+    "y": 320,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_glow": {
+    "x": 0,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_cracked": {
+    "x": 64,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_metallic": {
+    "x": 128,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_bright": {
+    "x": 192,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_O_dusk": {
+    "x": 256,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_normal": {
+    "x": 320,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_glass": {
+    "x": 384,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_glow": {
+    "x": 448,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_cracked": {
+    "x": 512,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_metallic": {
+    "x": 576,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_bright": {
+    "x": 640,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_T_dusk": {
+    "x": 704,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_normal": {
+    "x": 768,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_glass": {
+    "x": 832,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_glow": {
+    "x": 896,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_cracked": {
+    "x": 960,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_metallic": {
+    "x": 1024,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_bright": {
+    "x": 1088,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_S_dusk": {
+    "x": 1152,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_normal": {
+    "x": 1216,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_glass": {
+    "x": 1280,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_glow": {
+    "x": 1344,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_cracked": {
+    "x": 1408,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_metallic": {
+    "x": 1472,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_bright": {
+    "x": 1536,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_Z_dusk": {
+    "x": 1600,
+    "y": 384,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_normal": {
+    "x": 0,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_glass": {
+    "x": 64,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_glow": {
+    "x": 128,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_cracked": {
+    "x": 192,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_metallic": {
+    "x": 256,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_bright": {
+    "x": 320,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_J_dusk": {
+    "x": 384,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_normal": {
+    "x": 448,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_glass": {
+    "x": 512,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_glow": {
+    "x": 576,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_cracked": {
+    "x": 640,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_metallic": {
+    "x": 704,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_bright": {
+    "x": 768,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_retroarcade_L_dusk": {
+    "x": 832,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_normal": {
+    "x": 896,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_glass": {
+    "x": 960,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_glow": {
+    "x": 1024,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_cracked": {
+    "x": 1088,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_metallic": {
+    "x": 1152,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_bright": {
+    "x": 1216,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_I_dusk": {
+    "x": 1280,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_normal": {
+    "x": 1344,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_glass": {
+    "x": 1408,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_glow": {
+    "x": 1472,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_cracked": {
+    "x": 1536,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_metallic": {
+    "x": 1600,
+    "y": 448,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_bright": {
+    "x": 0,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_O_dusk": {
+    "x": 64,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_normal": {
+    "x": 128,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_glass": {
+    "x": 192,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_glow": {
+    "x": 256,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_cracked": {
+    "x": 320,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_metallic": {
+    "x": 384,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_bright": {
+    "x": 448,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_T_dusk": {
+    "x": 512,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_normal": {
+    "x": 576,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_glass": {
+    "x": 640,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_glow": {
+    "x": 704,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_cracked": {
+    "x": 768,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_metallic": {
+    "x": 832,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_bright": {
+    "x": 896,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_S_dusk": {
+    "x": 960,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_normal": {
+    "x": 1024,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_glass": {
+    "x": 1088,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_glow": {
+    "x": 1152,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_cracked": {
+    "x": 1216,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_metallic": {
+    "x": 1280,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_bright": {
+    "x": 1344,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_Z_dusk": {
+    "x": 1408,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_normal": {
+    "x": 1472,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_glass": {
+    "x": 1536,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_glow": {
+    "x": 1600,
+    "y": 512,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_cracked": {
+    "x": 0,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_metallic": {
+    "x": 64,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_bright": {
+    "x": 128,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_J_dusk": {
+    "x": 192,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_normal": {
+    "x": 256,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_glass": {
+    "x": 320,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_glow": {
+    "x": 384,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_cracked": {
+    "x": 448,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_metallic": {
+    "x": 512,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_bright": {
+    "x": 576,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_forest_L_dusk": {
+    "x": 640,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_normal": {
+    "x": 704,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_glass": {
+    "x": 768,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_glow": {
+    "x": 832,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_cracked": {
+    "x": 896,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_metallic": {
+    "x": 960,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_bright": {
+    "x": 1024,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_I_dusk": {
+    "x": 1088,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_normal": {
+    "x": 1152,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_glass": {
+    "x": 1216,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_glow": {
+    "x": 1280,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_cracked": {
+    "x": 1344,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_metallic": {
+    "x": 1408,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_bright": {
+    "x": 1472,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_O_dusk": {
+    "x": 1536,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_normal": {
+    "x": 1600,
+    "y": 576,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_glass": {
+    "x": 0,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_glow": {
+    "x": 64,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_cracked": {
+    "x": 128,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_metallic": {
+    "x": 192,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_bright": {
+    "x": 256,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_T_dusk": {
+    "x": 320,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_normal": {
+    "x": 384,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_glass": {
+    "x": 448,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_glow": {
+    "x": 512,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_cracked": {
+    "x": 576,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_metallic": {
+    "x": 640,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_bright": {
+    "x": 704,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_S_dusk": {
+    "x": 768,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_normal": {
+    "x": 832,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_glass": {
+    "x": 896,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_glow": {
+    "x": 960,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_cracked": {
+    "x": 1024,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_metallic": {
+    "x": 1088,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_bright": {
+    "x": 1152,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_Z_dusk": {
+    "x": 1216,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_normal": {
+    "x": 1280,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_glass": {
+    "x": 1344,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_glow": {
+    "x": 1408,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_cracked": {
+    "x": 1472,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_metallic": {
+    "x": 1536,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_bright": {
+    "x": 1600,
+    "y": 640,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_J_dusk": {
+    "x": 0,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_normal": {
+    "x": 64,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_glass": {
+    "x": 128,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_glow": {
+    "x": 192,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_cracked": {
+    "x": 256,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_metallic": {
+    "x": 320,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_bright": {
+    "x": 384,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_ocean_L_dusk": {
+    "x": 448,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_normal": {
+    "x": 512,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_glass": {
+    "x": 576,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_glow": {
+    "x": 640,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_cracked": {
+    "x": 704,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_metallic": {
+    "x": 768,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_bright": {
+    "x": 832,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_I_dusk": {
+    "x": 896,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_normal": {
+    "x": 960,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_glass": {
+    "x": 1024,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_glow": {
+    "x": 1088,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_cracked": {
+    "x": 1152,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_metallic": {
+    "x": 1216,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_bright": {
+    "x": 1280,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_O_dusk": {
+    "x": 1344,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_normal": {
+    "x": 1408,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_glass": {
+    "x": 1472,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_glow": {
+    "x": 1536,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_cracked": {
+    "x": 1600,
+    "y": 704,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_metallic": {
+    "x": 0,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_bright": {
+    "x": 64,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_T_dusk": {
+    "x": 128,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_normal": {
+    "x": 192,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_glass": {
+    "x": 256,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_glow": {
+    "x": 320,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_cracked": {
+    "x": 384,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_metallic": {
+    "x": 448,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_bright": {
+    "x": 512,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_S_dusk": {
+    "x": 576,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_normal": {
+    "x": 640,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_glass": {
+    "x": 704,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_glow": {
+    "x": 768,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_cracked": {
+    "x": 832,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_metallic": {
+    "x": 896,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_bright": {
+    "x": 960,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_Z_dusk": {
+    "x": 1024,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_normal": {
+    "x": 1088,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_glass": {
+    "x": 1152,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_glow": {
+    "x": 1216,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_cracked": {
+    "x": 1280,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_metallic": {
+    "x": 1344,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_bright": {
+    "x": 1408,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_J_dusk": {
+    "x": 1472,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_normal": {
+    "x": 1536,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_glass": {
+    "x": 1600,
+    "y": 768,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_glow": {
+    "x": 0,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_cracked": {
+    "x": 64,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_metallic": {
+    "x": 128,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_bright": {
+    "x": 192,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_sunset_L_dusk": {
+    "x": 256,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_normal": {
+    "x": 320,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_glass": {
+    "x": 384,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_glow": {
+    "x": 448,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_cracked": {
+    "x": 512,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_metallic": {
+    "x": 576,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_bright": {
+    "x": 640,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_I_dusk": {
+    "x": 704,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_normal": {
+    "x": 768,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_glass": {
+    "x": 832,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_glow": {
+    "x": 896,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_cracked": {
+    "x": 960,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_metallic": {
+    "x": 1024,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_bright": {
+    "x": 1088,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_O_dusk": {
+    "x": 1152,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_normal": {
+    "x": 1216,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_glass": {
+    "x": 1280,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_glow": {
+    "x": 1344,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_cracked": {
+    "x": 1408,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_metallic": {
+    "x": 1472,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_bright": {
+    "x": 1536,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_T_dusk": {
+    "x": 1600,
+    "y": 832,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_normal": {
+    "x": 0,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_glass": {
+    "x": 64,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_glow": {
+    "x": 128,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_cracked": {
+    "x": 192,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_metallic": {
+    "x": 256,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_bright": {
+    "x": 320,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_S_dusk": {
+    "x": 384,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_normal": {
+    "x": 448,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_glass": {
+    "x": 512,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_glow": {
+    "x": 576,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_cracked": {
+    "x": 640,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_metallic": {
+    "x": 704,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_bright": {
+    "x": 768,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_Z_dusk": {
+    "x": 832,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_normal": {
+    "x": 896,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_glass": {
+    "x": 960,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_glow": {
+    "x": 1024,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_cracked": {
+    "x": 1088,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_metallic": {
+    "x": 1152,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_bright": {
+    "x": 1216,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_J_dusk": {
+    "x": 1280,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_normal": {
+    "x": 1344,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_glass": {
+    "x": 1408,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_glow": {
+    "x": 1472,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_cracked": {
+    "x": 1536,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_metallic": {
+    "x": 1600,
+    "y": 896,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_bright": {
+    "x": 0,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_monochrome_L_dusk": {
+    "x": 64,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_normal": {
+    "x": 128,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_glass": {
+    "x": 192,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_glow": {
+    "x": 256,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_cracked": {
+    "x": 320,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_metallic": {
+    "x": 384,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_bright": {
+    "x": 448,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_I_dusk": {
+    "x": 512,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_normal": {
+    "x": 576,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_glass": {
+    "x": 640,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_glow": {
+    "x": 704,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_cracked": {
+    "x": 768,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_metallic": {
+    "x": 832,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_bright": {
+    "x": 896,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_O_dusk": {
+    "x": 960,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_normal": {
+    "x": 1024,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_glass": {
+    "x": 1088,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_glow": {
+    "x": 1152,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_cracked": {
+    "x": 1216,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_metallic": {
+    "x": 1280,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_bright": {
+    "x": 1344,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_T_dusk": {
+    "x": 1408,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_normal": {
+    "x": 1472,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_glass": {
+    "x": 1536,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_glow": {
+    "x": 1600,
+    "y": 960,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_cracked": {
+    "x": 0,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_metallic": {
+    "x": 64,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_bright": {
+    "x": 128,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_S_dusk": {
+    "x": 192,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_normal": {
+    "x": 256,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_glass": {
+    "x": 320,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_glow": {
+    "x": 384,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_cracked": {
+    "x": 448,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_metallic": {
+    "x": 512,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_bright": {
+    "x": 576,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_Z_dusk": {
+    "x": 640,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_normal": {
+    "x": 704,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_glass": {
+    "x": 768,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_glow": {
+    "x": 832,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_cracked": {
+    "x": 896,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_metallic": {
+    "x": 960,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_bright": {
+    "x": 1024,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_J_dusk": {
+    "x": 1088,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_normal": {
+    "x": 1152,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_glass": {
+    "x": 1216,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_glow": {
+    "x": 1280,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_cracked": {
+    "x": 1344,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_metallic": {
+    "x": 1408,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_bright": {
+    "x": 1472,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_galaxy_L_dusk": {
+    "x": 1536,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_normal": {
+    "x": 1600,
+    "y": 1024,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_glass": {
+    "x": 0,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_glow": {
+    "x": 64,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_cracked": {
+    "x": 128,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_metallic": {
+    "x": 192,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_bright": {
+    "x": 256,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_I_dusk": {
+    "x": 320,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_normal": {
+    "x": 384,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_glass": {
+    "x": 448,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_glow": {
+    "x": 512,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_cracked": {
+    "x": 576,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_metallic": {
+    "x": 640,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_bright": {
+    "x": 704,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_O_dusk": {
+    "x": 768,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_normal": {
+    "x": 832,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_glass": {
+    "x": 896,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_glow": {
+    "x": 960,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_cracked": {
+    "x": 1024,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_metallic": {
+    "x": 1088,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_bright": {
+    "x": 1152,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_T_dusk": {
+    "x": 1216,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_normal": {
+    "x": 1280,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_glass": {
+    "x": 1344,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_glow": {
+    "x": 1408,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_cracked": {
+    "x": 1472,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_metallic": {
+    "x": 1536,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_bright": {
+    "x": 1600,
+    "y": 1088,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_S_dusk": {
+    "x": 0,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_normal": {
+    "x": 64,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_glass": {
+    "x": 128,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_glow": {
+    "x": 192,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_cracked": {
+    "x": 256,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_metallic": {
+    "x": 320,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_bright": {
+    "x": 384,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_Z_dusk": {
+    "x": 448,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_normal": {
+    "x": 512,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_glass": {
+    "x": 576,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_glow": {
+    "x": 640,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_cracked": {
+    "x": 704,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_metallic": {
+    "x": 768,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_bright": {
+    "x": 832,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_J_dusk": {
+    "x": 896,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_normal": {
+    "x": 960,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_glass": {
+    "x": 1024,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_glow": {
+    "x": 1088,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_cracked": {
+    "x": 1152,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_metallic": {
+    "x": 1216,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_bright": {
+    "x": 1280,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "block_fire_L_dusk": {
+    "x": 1344,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "blocks"
+  },
+  "btn_light_play_normal": {
+    "x": 1408,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_play_hover": {
+    "x": 1472,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_play_pressed": {
+    "x": 1536,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_pause_normal": {
+    "x": 1600,
+    "y": 1152,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_pause_hover": {
+    "x": 0,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_pause_pressed": {
+    "x": 64,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_restart_normal": {
+    "x": 128,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_restart_hover": {
+    "x": 192,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_restart_pressed": {
+    "x": 256,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_settings_normal": {
+    "x": 320,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_settings_hover": {
+    "x": 384,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_settings_pressed": {
+    "x": 448,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_on_normal": {
+    "x": 512,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_on_hover": {
+    "x": 576,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_on_pressed": {
+    "x": 640,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_off_normal": {
+    "x": 704,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_off_hover": {
+    "x": 768,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_sound_off_pressed": {
+    "x": 832,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_home_normal": {
+    "x": 896,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_home_hover": {
+    "x": 960,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_home_pressed": {
+    "x": 1024,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_next_normal": {
+    "x": 1088,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_next_hover": {
+    "x": 1152,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_next_pressed": {
+    "x": 1216,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_back_normal": {
+    "x": 1280,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_back_hover": {
+    "x": 1344,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_back_pressed": {
+    "x": 1408,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_hold_normal": {
+    "x": 1472,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_hold_hover": {
+    "x": 1536,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_light_hold_pressed": {
+    "x": 1600,
+    "y": 1216,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_play_normal": {
+    "x": 0,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_play_hover": {
+    "x": 64,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_play_pressed": {
+    "x": 128,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_pause_normal": {
+    "x": 192,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_pause_hover": {
+    "x": 256,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_pause_pressed": {
+    "x": 320,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_restart_normal": {
+    "x": 384,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_restart_hover": {
+    "x": 448,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_restart_pressed": {
+    "x": 512,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_settings_normal": {
+    "x": 576,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_settings_hover": {
+    "x": 640,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_settings_pressed": {
+    "x": 704,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_on_normal": {
+    "x": 768,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_on_hover": {
+    "x": 832,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_on_pressed": {
+    "x": 896,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_off_normal": {
+    "x": 960,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_off_hover": {
+    "x": 1024,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_sound_off_pressed": {
+    "x": 1088,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_home_normal": {
+    "x": 1152,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_home_hover": {
+    "x": 1216,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_home_pressed": {
+    "x": 1280,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_next_normal": {
+    "x": 1344,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_next_hover": {
+    "x": 1408,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_next_pressed": {
+    "x": 1472,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_back_normal": {
+    "x": 1536,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_back_hover": {
+    "x": 1600,
+    "y": 1280,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_back_pressed": {
+    "x": 0,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_hold_normal": {
+    "x": 64,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_hold_hover": {
+    "x": 128,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_dark_hold_pressed": {
+    "x": 192,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_play_normal": {
+    "x": 256,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_play_hover": {
+    "x": 320,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_play_pressed": {
+    "x": 384,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_pause_normal": {
+    "x": 448,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_pause_hover": {
+    "x": 512,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_pause_pressed": {
+    "x": 576,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_restart_normal": {
+    "x": 640,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_restart_hover": {
+    "x": 704,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_restart_pressed": {
+    "x": 768,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_settings_normal": {
+    "x": 832,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_settings_hover": {
+    "x": 896,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_settings_pressed": {
+    "x": 960,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_on_normal": {
+    "x": 1024,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_on_hover": {
+    "x": 1088,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_on_pressed": {
+    "x": 1152,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_off_normal": {
+    "x": 1216,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_off_hover": {
+    "x": 1280,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_sound_off_pressed": {
+    "x": 1344,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_home_normal": {
+    "x": 1408,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_home_hover": {
+    "x": 1472,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_home_pressed": {
+    "x": 1536,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_next_normal": {
+    "x": 1600,
+    "y": 1344,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_next_hover": {
+    "x": 0,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_next_pressed": {
+    "x": 64,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_back_normal": {
+    "x": 128,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_back_hover": {
+    "x": 192,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_back_pressed": {
+    "x": 256,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_hold_normal": {
+    "x": 320,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_hold_hover": {
+    "x": 384,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "btn_neon_hold_pressed": {
+    "x": 448,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "buttons"
+  },
+  "secret_gold_locked_door": {
+    "x": 512,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_unlocked_door": {
+    "x": 576,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_key": {
+    "x": 640,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_star": {
+    "x": 704,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_chest_closed": {
+    "x": 768,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_chest_open": {
+    "x": 832,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_portal": {
+    "x": 896,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_skull": {
+    "x": 960,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_diamond": {
+    "x": 1024,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_gold_flag": {
+    "x": 1088,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_locked_door": {
+    "x": 1152,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_unlocked_door": {
+    "x": 1216,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_key": {
+    "x": 1280,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_star": {
+    "x": 1344,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_chest_closed": {
+    "x": 1408,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_chest_open": {
+    "x": 1472,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_portal": {
+    "x": 1536,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_skull": {
+    "x": 1600,
+    "y": 1408,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_diamond": {
+    "x": 0,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_violet_flag": {
+    "x": 64,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_locked_door": {
+    "x": 128,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_unlocked_door": {
+    "x": 192,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_key": {
+    "x": 256,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_star": {
+    "x": 320,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_chest_closed": {
+    "x": 384,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_chest_open": {
+    "x": 448,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_portal": {
+    "x": 512,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_skull": {
+    "x": 576,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_diamond": {
+    "x": 640,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "secret_cyan_flag": {
+    "x": 704,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "secret"
+  },
+  "speed_yellow_lightning": {
+    "x": 768,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_yellow_arrow": {
+    "x": 832,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_yellow_rocket": {
+    "x": 896,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_yellow_flame": {
+    "x": 960,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_yellow_clock_fast": {
+    "x": 1024,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_yellow_dash": {
+    "x": 1088,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_lightning": {
+    "x": 1152,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_arrow": {
+    "x": 1216,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_rocket": {
+    "x": 1280,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_flame": {
+    "x": 1344,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_clock_fast": {
+    "x": 1408,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_cyan_dash": {
+    "x": 1472,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_lightning": {
+    "x": 1536,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_arrow": {
+    "x": 1600,
+    "y": 1472,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_rocket": {
+    "x": 0,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_flame": {
+    "x": 64,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_clock_fast": {
+    "x": 128,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "speed_red_dash": {
+    "x": 192,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "speed"
+  },
+  "panel_light_menu_panel": {
+    "x": 256,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_header_bar": {
+    "x": 320,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_footer_bar": {
+    "x": 384,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_divider": {
+    "x": 448,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_board_bg": {
+    "x": 512,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_highlight_cell": {
+    "x": 576,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_light_grid_tile": {
+    "x": 640,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_menu_panel": {
+    "x": 704,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_header_bar": {
+    "x": 768,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_footer_bar": {
+    "x": 832,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_divider": {
+    "x": 896,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_board_bg": {
+    "x": 960,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_highlight_cell": {
+    "x": 1024,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_dark_grid_tile": {
+    "x": 1088,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_menu_panel": {
+    "x": 1152,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_header_bar": {
+    "x": 1216,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_footer_bar": {
+    "x": 1280,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_divider": {
+    "x": 1344,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_board_bg": {
+    "x": 1408,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_highlight_cell": {
+    "x": 1472,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  },
+  "panel_neon_grid_tile": {
+    "x": 1536,
+    "y": 1536,
+    "w": 64,
+    "h": 64,
+    "category": "panels"
+  }
+}
