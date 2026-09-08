@@ -7,6 +7,7 @@ const PORT=Number(process.env.PORT||10000),MAX_PLAYERS=6,ROOM_TTL_MS=15*60*1000;
 const rooms=new Map(),app=express(),server=http.createServer(app),wss=new WebSocketServer({server});
 app.disable('x-powered-by'); app.use(express.static('public',{extensions:['html']}));
 app.get('/health',(_q,res)=>res.json({ok:true,rooms:rooms.size,players:[...rooms.values()].reduce((n,r)=>n+r.players.size,0)}));
+app.get('/api/seed',(_q,res)=>res.json({seed:crypto.randomInt(1,0x7fffffff),serverTime:Date.now()}));
 app.get('/api/lobbies',(_q,res)=>res.json({rooms:[...rooms.values()].filter(r=>!r.started).map(publicLobby)}));
 app.get('/{*splat}',(_q,res)=>res.sendFile(process.cwd()+'/public/index.html'));
 const id=()=>crypto.randomBytes(6).toString('hex'), code=()=>crypto.randomBytes(3).toString('hex').toUpperCase();
